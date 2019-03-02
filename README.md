@@ -1,4 +1,4 @@
-#Build image  
+# Build image  
 
 docker build -t uploadfile .
 
