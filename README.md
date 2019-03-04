@@ -1,7 +1,7 @@
 # Build image  
 
-docker build -t uploadfile .
+docker build -t pji .
 
 # Run container  
 
-docker run -p 4200:80 uploadfile
+docker run -it -p 80:80 --rm pji
